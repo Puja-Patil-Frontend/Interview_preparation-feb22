@@ -1,0 +1,8 @@
+function spinWords(backward) {
+    return backward.replace(/\w{5,}/g, word => word.split('').reverse().join(''));
+  }
+  console.log(spinWords("Hey fellow warriors"));
+  console.log(spinWords("This is Test"));
+  console.log(spinWords("This is another test"));
+
+
